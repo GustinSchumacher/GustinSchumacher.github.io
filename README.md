@@ -1,1 +1,1 @@
-# gustinschumacherGustinSchumacher-GustinSchumacher.github.io
+# GustinSchumacher.github.io
