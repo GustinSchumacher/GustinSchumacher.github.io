@@ -1,68 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hello World!</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS -->
-    <link href="Resources/CSS/style.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="JavaScript" href="/Resources/script/script.js" />
-  </head>
+<head>
+  <title>Hello World!</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <header>
-      <h1 class="logo">Gustin Schumacher</h1>
-      <nav>
-        <ul>
-          <li><a href="#">About</li></a>
-          <li><a href="Projects.html">Projects</li></a>
-          <li><a href="Contact.html">Contact</li></a>
-        </ul>
-      </nav>
-    </header>
+  <!-- CSS -->
+  <link href="Resources/CSS/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="JavaScript" href="/Resources/script/script.js" />
+</head>
 
-    <!--Headshot-->
-    <div>
-      <img src="Content/Images/IMG_7225.jpg" class="headshot" />
+<body>
+  <header>
+    <h1 class="logo">Gustin Schumacher</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">About</li></a>
+        <li><a href="Projects.html">Projects</li></a>
+        <li><a href="Contact.html">Contact</li></a>
+      </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="index.html">About</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
     </div>
-    <div class="about-me">
-      <h3>About Me</h3>
-      <p>
-        I am a self taught front-end developer with experience coding websites for individuals
-         and businesses including developing WordPress sites. I am skilled with HTML5, CSS. JavaScript, PHP, and GitHub.</p>
-    </div>
-    <h3>Projects</h3>
-    <ul>
-      <li><a href="#">Project A</a></li>
-      <li><a href="#">Project B</a></li>
-      <li><a href="#">Project C</a></li>
-    </ul>
-  </body>
-  <div id="footer">
+
+  </header>
+
+  <!--Headshot-->
+  <div>
+    <img src="Content/Images/View recent photos.jpg" class="headshot" />
+  </div>
+  <div class="about">
+    <h3>About Me</h3>
+    <p>
+      I am a self taught front-end developer with experience coding websites for individuals and businesses including
+      developing WordPress sites. I am skilled with HTML5, CSS. JavaScript, PHP, and GitHub.</p>
+  </div>
+  <h3>Projects</h3>
+  <ul>
+    <li><a href="#">Project A</a></li>
+    <li><a href="#">Project B</a></li>
+    <li><a href="#">Project C</a></li>
+  </ul>
+  <footer>  
     <span>
       <h6>Contact</h6>
       <ul>
         <li>
-          <a
-            href="https://www.twitter.com/gustinCodes"
-            class="fa fa-twitter"
-            target="_blank"
-          >
+          <a href="https://www.twitter.com/gustinCodes" class="fa fa-twitter" target="_blank">
           </a>
         </li>
         <li><a href="mailto: gustin.schumacher@gmail.com" _blank>Email</a></li>
         <li>
           <a href="https://github.com/GustinSchumacher" target="_blank">
-            GitHub</a
-          >
+            GitHub</a>
         </li>
       </ul>
     </span>
-  </div>
+  </footer>
+  <script src="Resources/script/script.js"></script>
+</body>
+
+
 </html>
