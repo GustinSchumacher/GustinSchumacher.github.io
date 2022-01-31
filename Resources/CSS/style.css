@@ -87,7 +87,6 @@ ul li:hover {
   left: 0;
   height: calc(100vh - 50px);
   width: 100%;
-
 }
 
 .mobile-menu li {
@@ -104,8 +103,17 @@ ul li:hover {
   }
 }
 
+.about {
+  max-width: 50%;
+  margin: auto;
+}
 .about h3 {
   display: block;
+}
+
+.contact {
+  position: relative;
+  margin: auto;
 }
 
 a {
@@ -149,7 +157,7 @@ nav a {
 }
 
 nav a li {
-  text-decoration: underline;
+  
   display: table-cell;
   vertical-align: middle;
   height: 100%;
@@ -166,6 +174,8 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  text-decoration: underline;
+  border: black;
 }
 
 nav:hover {
