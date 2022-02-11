@@ -260,3 +260,8 @@ footer {
   text-decoration: none;
   border-radius: 100%;
 }
+
+.footer {
+  display: flexbox;
+  justify-content: space-between;
+}
