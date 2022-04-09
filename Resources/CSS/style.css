@@ -41,7 +41,7 @@ ul li {
 }
 
 ul li:hover {
-  transform: scale(1.1);
+  transform:scaleX(1.1)
   transition: 0.3s;
 }
 
